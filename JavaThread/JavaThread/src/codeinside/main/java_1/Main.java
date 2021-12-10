@@ -1,4 +1,4 @@
-package codeinside.main.java;
+package codeinside.main.java_1;
 
 public class Main {
     static EggThread oneOption;
@@ -12,15 +12,17 @@ public class Main {
 
         oneOption.start();
         AnotherOption.start();
-        try {
-            oneOption.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+
+        if (oneOption.isAlive()){
+            try {
+                oneOption.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Яйцо победило");
         }
-        try {
-            AnotherOption.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        else {
+            System.out.println("Курица победила");
         }
     }
 }

@@ -1,6 +1,6 @@
-package codeinside.main.java;
+package codeinside.main.java_1;
 
-public class EggThread extends Thread{
+public class ChickenThread extends Thread{
 
     @Override
     public void run()
@@ -11,7 +11,8 @@ public class EggThread extends Thread{
                 sleep(1000);
             }catch(InterruptedException e){}
 
-            System.out.println("яйцо!");
+            System.out.println("курица!");
         }
     }
+
 }
