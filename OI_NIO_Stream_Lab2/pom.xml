@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>OI_NIO_Stream_Lab2</artifactId>
     <version>1.0-SNAPSHOT</version>
+<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>org.json</groupId>
@@ -14,6 +15,8 @@
             <version>20210307</version>
         </dependency>
     </dependencies>
+=======
+>>>>>>> bc081d7e7beb0379c915fdf7ef431e2d33cfde50
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

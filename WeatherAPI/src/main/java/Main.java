@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.net.URL;
 
 public class Main {
@@ -17,3 +18,7 @@ public class Main {
     }
 
 }
+=======
+package PACKAGE_NAME;public class Main {
+}
+>>>>>>> bc081d7e7beb0379c915fdf7ef431e2d33cfde50

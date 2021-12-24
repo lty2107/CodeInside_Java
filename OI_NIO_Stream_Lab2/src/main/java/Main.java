@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 
@@ -139,4 +140,7 @@ public class Main {
         }
         return null;
     }
+=======
+package PACKAGE_NAME;public class Main {
+>>>>>>> bc081d7e7beb0379c915fdf7ef431e2d33cfde50
 }

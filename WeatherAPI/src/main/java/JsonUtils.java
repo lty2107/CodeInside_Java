@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
@@ -64,4 +65,7 @@ public class JsonUtils {
             return null;
         }
     }
+=======
+package PACKAGE_NAME;public class JsonUtils {
+>>>>>>> bc081d7e7beb0379c915fdf7ef431e2d33cfde50
 }
