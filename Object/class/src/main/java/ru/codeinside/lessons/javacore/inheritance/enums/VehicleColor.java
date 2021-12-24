@@ -1,5 +1,9 @@
 package ru.codeinside.lessons.javacore.inheritance.enums;
 
+import java.util.Arrays;
+import java.util.Optional;
+import java.util.stream.Stream;
+
 /**
  * Перечисление описывает возможные цвета автомобилей.
  */
@@ -39,5 +43,11 @@ public enum VehicleColor {
             }
         }
         return UNDEFINED;
+    }
+
+    public static VehicleColor streamGetColorByName(String color){
+        return (Stream.of(VehicleColor.values())).filter(vehicleColor -> vehicleColor.color.equals(color)).findFirst().orElse(UNDEFINED);
+    }
+    Stream kek = new Stream() {
     }
 }
